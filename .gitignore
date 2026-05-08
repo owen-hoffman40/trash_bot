@@ -1,6 +1,3 @@
 
 # Local OS files
 .DS_Store
-
-# Large video assets
-Videos/*.mov
