@@ -1,4 +1,4 @@
-from trash_bot.CV.controller.mpc_controller import MPCController
+from trash_bot.controller.mpc_controller import MPCController
 import time
 import rclpy
 from geometry_msgs.msg import Twist
@@ -11,7 +11,7 @@ from trash_bot.CV.trashbot_dir.ros_classify import classify_item
 from trash_bot.CV.trashbot_dir.ros_hand_detect import detect_hand
 import math
 from nav_msgs.msg import Odometry
-from trash_bot.CV.controller.object_dector import run_one_shot_obstacle_scan
+from trash_bot.controller.object_dector import run_one_shot_obstacle_scan
 
 TIMER_DELAY_SEC = 5.0
 
